@@ -5,7 +5,7 @@ function Projects() {
   return (
     <section id="projects">
       <h2>Projets</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '24px' }}>
+      <div className="projects-grid">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}

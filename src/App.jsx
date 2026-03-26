@@ -11,9 +11,13 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <hr className='sep'></hr>
       <About />
+      <hr className='sep'></hr>
       <Skills />
+      <hr className='sep'></hr>
       <Projects />
+      <hr className='sep'></hr>
       <Contact />
     </>
   )

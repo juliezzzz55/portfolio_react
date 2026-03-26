@@ -9,19 +9,19 @@ function Skills() {
     <section id="skills">
       <h2>Compétences</h2>
       <h3>Programmation</h3>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+      <div className="skills-list">
         {languages.map((skill) => (
           <SkillBadge key={skill} name={skill} />
         ))}
       </div>
       <h3>Base de données</h3>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+      <div className="skills-list">
         {db.map((skill) => (
           <SkillBadge key={skill} name={skill} />
         ))}
       </div>
       <h3>Général</h3>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+      <div className="skills-list">
         {general.map((skill) => (
           <SkillBadge key={skill} name={skill} />
         ))}

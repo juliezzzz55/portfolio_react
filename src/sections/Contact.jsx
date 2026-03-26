@@ -4,7 +4,7 @@ function Contact() {
       <h2>Contact</h2>
       <p>Envie de collaborer ? Vous pouvez prendre contact ici ! </p>
       <p>
-        Email : <a href="mailto:ton@email.com">julielefort4@gmail.com</a>
+        Email : <a href="mailto:julielefort4@gmail.com">julielefort4@gmail.com</a>
       </p>
     </section>
   )
