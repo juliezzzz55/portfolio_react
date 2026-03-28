@@ -1,10 +1,10 @@
 export const projects = [
   {
     id: 1,
-    photo: "lalalala",
-    title: '',
-    description: 'Description courte de ce que fait ce projet et les technos utilisées.',
-    link: 'https://github.com/emf-info-23-24-62/183-projet-lefort-julie-emf',
+    photo: "/favicon.png",
+    title: 'Kanban d\'entreprise sécurisé',
+    description: 'Application kanban d\'entreprise client serveur sécurisé, avec session, authentification multifacteur, pages sécurisées, etc.',
+    link: 'https://github.com/juliezzzz55/secure_webapp',
   },
   {
     id: 2,
@@ -15,6 +15,13 @@ export const projects = [
   },
   {
     id: 3,
+    photo: "lalalala",
+    title: 'Troisième projet',
+    description: 'Description courte de ce que fait ce projet et les technos utilisées.',
+    link: null,
+  },
+  {
+    id: 4,
     photo: "lalalala",
     title: 'Troisième projet',
     description: 'Description courte de ce que fait ce projet et les technos utilisées.',

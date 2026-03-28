@@ -6,6 +6,9 @@ function Contact() {
       <p>
         Email : <a href="mailto:julielefort4@gmail.com">julielefort4@gmail.com</a>
       </p>
+      <p>
+        Github : <a href="https://github.com/juliezzzz55">juliezzzz55</a>
+      </p>
     </section>
   )
 }

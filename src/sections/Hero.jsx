@@ -6,7 +6,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-aurora">
         <Aurora
-          colorStops={['#f6bdd1', '#9067c6', '#ccfbfe']}
+          colorStops={['#e7bdf6', '#9067c6', '#493270']}
           amplitude={1.2}
           blend={0.6}
           speed={0.8}

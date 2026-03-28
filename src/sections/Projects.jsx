@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import ProjectCard from '../components/ProjectCard'
+import ProjectModal from '../components/ProjectModal'
 import { projects } from '../data/project'
 
 function Projects() {
+  const [selected, setSelected] = useState(null)
+
   return (
     <section id="projects">
       <h2>Projets</h2>
@@ -12,9 +16,11 @@ function Projects() {
             title={project.title}
             description={project.description}
             link={project.link}
+            onClick={() => setSelected(project)}
           />
         ))}
       </div>
+      <ProjectModal project={selected} onClose={() => setSelected(null)} />
     </section>
   )
 }
