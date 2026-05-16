@@ -1,8 +1,8 @@
 import SkillBadge from '../components/SkillBadge'
 
-const languages = ['Java', 'HTML', 'CSS', 'JavaScript', 'React']
+const languages = ['Java', 'HTML', 'CSS', 'JavaScript', 'Dart', 'Flutter']
 const db = ['MySQL', 'PostgresSQL', 'MongoDB']
-const general = ['Git', 'Docker', 'ArgoCD', 'Services Azure', 'CI/CD pipelines', 'UML']
+const general = ['Git', 'Docker', 'Kubernetes', 'ArgoCD', 'Services Azure', 'CI/CD pipelines', 'UML', 'RabbitMQ', 'Keycloak', 'Traefik', 'Prometheus', 'Grafana', 'Linux']
 
 function Skills() {
   return (
